@@ -114,7 +114,7 @@ list_prices(laptops)
 #   - With '1 TB SSD' storage
 
 # 3.1 TODO: Update the `laptops` dictionary to reflect these changes.
-laptops[0]['types'][1]['colors'].remove("space grey")
+laptops[0]['types'][1]['colors'].remove("space gray")
 laptops[0]['types'][1]['storage'].remove("1 TB SSD")
 # 3.2 TODO: Print out the Macbook Pro dictionary to see the changes.
 print(laptops[0]['url'])
